@@ -42,23 +42,25 @@ namespace Tarea2Arboles
                                 Valor="7"
                             },
                             new Nodo{
-                                Valor="1"
+                                Valor="7"
                             }
                            
                         }
                     }
                     
-
-
-                },
+                }
             };
 
-            ManipuladorArbol ManipuladorArbol = new ManipuladorArbol();
-            Console.WriteLine($"La cantidad de hojas del arbol es: {ManipuladorArbol.ContadorHojas(raiz)}");
-            Console.WriteLine($"La cantidad de niveles del arbol es: {ManipuladorArbol.ContarNiveles(raiz)}");
-            Console.WriteLine($"La cantidad de nodos del arbol es: {ManipuladorArbol.ContadorNodos(raiz)}");
-
-
+            ManipuladorArbol manipuladorArbol = new ManipuladorArbol();
+            Console.WriteLine($"La cantidad de hojas del arbol es: {manipuladorArbol.ContadorHojas(raiz)}");
+            Console.WriteLine($"La cantidad de niveles del arbol es: {manipuladorArbol.ContarNiveles(raiz)}");
+            Console.WriteLine($"La cantidad de nodos del arbol es: {manipuladorArbol.ContadorNodos(raiz)}");
+            Console.WriteLine("Expresiones algebráicas: ");
+            Console.WriteLine(manipuladorArbol.ImprimirArbolInfijo(raiz));
+            Console.WriteLine(manipuladorArbol.ImprimirArbolInfijo2(raiz));
+            Console.WriteLine(manipuladorArbol.ImprimirArbolPrefijo(raiz));
+            Console.WriteLine(manipuladorArbol.ImprimirArbolSegundoPrefijo(raiz));
+            Console.WriteLine(manipuladorArbol.ImprimirArbolPrefijo3(raiz));
         }
     }
 }
