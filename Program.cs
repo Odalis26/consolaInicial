@@ -22,7 +22,7 @@ namespace Ordenamiento
 
             Console.WriteLine("Con For...");
             for (int i = 0; i < edificiordenado.Length; i++)
-                Console.WriteLine(edificio[i]); // La i es el indice que recorre el array
+                Console.WriteLine(edificio[i]); 
 
             Console.WriteLine("Con Foreach");
             foreach (var actual in edificiordenado)
