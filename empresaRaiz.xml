@@ -1,0 +1,9 @@
+<? xml version = "1.0" enconping = "UTF-8"?><empresaRaiz><id>0</id><nombre>empresaRaiz </nombre> 
+<ruc></ruc> <telefono></telefono><empresas><empresa0><id>0</id><nombre>HospiMedica </nombre> <ruc>1234567001</ruc>
+ <telefono>02-2546985</telefono><farmacias><farmacia0><nombre>Sana Sana</nombre><telefono>0985620123</telefono><clientes><clientes0>
+ <nombre>Manuel</nombre><apellido>Riofrío</apellido></clientes0></clientes><vendedores><vendedor0><nombre>Liz</nombre><cargo>Vendedor</cargo>
+ </vendedor0><vendedor1><nombre>Manuela</nombre><cargo>Vendedor</cargo></vendedor1></vendedores><productos><producto0><nombre>Protex</nombre><precio>1,25</precio>
+ </producto0><producto1><nombre>Sin Gripal</nombre><precio>0</precio></producto1></productos></farmacia0><farmacia1><nombre>Fibeca</nombre><telefono>0985620123</telefono>
+ <clientes><clientes0><nombre>Manuel</nombre><apellido>Riofrío</apellido></clientes0></clientes><vendedores><vendedor0><nombre>Liz</nombre><cargo>Vendedor</cargo>
+ </vendedor0><vendedor1><nombre>Manuela</nombre><cargo>Vendedor</cargo></vendedor1></vendedores><productos><producto0><nombre>Protex</nombre><precio>1,25</precio>
+ </producto0><producto1><nombre>Sin Gripal</nombre><precio>0</precio></producto1></productos></farmacia1></farmacias></empresa0></empresas></empresaRaiz>
