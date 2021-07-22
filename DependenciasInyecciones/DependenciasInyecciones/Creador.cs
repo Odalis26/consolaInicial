@@ -2,6 +2,6 @@ namespace InyeccionIndependencia
 {
     public abstract class Creador
     {
-        public abstract string CreadorArchivo(Producto producto);
+        public abstract string CreadorArchivo(Producto producto, string ruta);
     }
 }

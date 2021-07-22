@@ -13,9 +13,10 @@ namespace InyeccionIndependencia
             CreadorArchivo = creadorArchivo;
         }
         public Creador CreadorArchivo { get; set; }
+        public string Ruta { get; set; } = "D:\\";
         public string CrearArchivo(Producto producto)
         {
-            return CreadorArchivo.CreadorArchivo(producto);
+            return CreadorArchivo.CreadorArchivo(producto,Ruta);
         }
     }
 }
