@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Calculos";
+}
+<div class="text-center">
+    <h1>Calculos</h1>
+    <form action="/calculos/sumar" method="post">
+        <div class="form-group">
+            <input type="number" placeholder="Ingrese un numero" class="form-control" name="primerNumero" />
+        </div>
+        <div class="form-group">
+            <input type="number" placeholder="Ingrese el segundo numero" class="form-control" name="segundoNumero" />
+        </div>
+        <input type="submit" value="Sumar" class="btn btn-success" />
+    </form>
+</div>
